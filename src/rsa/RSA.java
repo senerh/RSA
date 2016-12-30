@@ -1,7 +1,9 @@
+package rsa;
+
 import java.math.BigInteger;
 import java.util.Random;
 
-public class RSA {
+public class RSA implements InterfaceRSA {
 
     private static int KEY_SIZE = 512;
 
